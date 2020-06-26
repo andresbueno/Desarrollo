@@ -1,0 +1,67 @@
+*{
+    font-family: Arial;
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(57, 63, 88);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+h1{
+    text-shadow: 15px 10px 10px rgb(32, 32, 32);
+}
+form{
+    height: auto;
+    margin-top: 70px;
+    width: 330px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 5px outset gray;
+    box-shadow: 12px 15px 10px rgb(32, 32, 32);
+}
+input, .produc1{
+    width: 280px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 5px 13px black;
+    background-color: rgb(212, 216, 235);
+}
+.btn, a{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(50, 105, 231);
+    color: white;
+    border-right: 3px solid rgb(47, 47, 177);
+    border-bottom: 4px solid rgb(47, 47, 177);
+    box-shadow: none;
+}
+.btn:hover, a:hover{
+    background-color: rgb(104, 147, 248);
+    border-right: 3px solid rgb(77, 77, 180);
+    border-bottom: 4px solid rgb(77, 77, 180);
+}
+.btn:active, a:active{
+    transform: scale(1.02);
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+    height: 30px;
+}
+h2{
+    color: rebeccapurple;
+}
+
+.panel{
+    margin-top: 15px;
+}

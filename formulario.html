@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="formulario.css"> -->
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <h1>Formularios</h1>
+
+    <form action="formulario.php" method="POST">
+
+        <label for="name"></label>
+        <input type="text" name="nombre" id="name" placeholder="Nombre">
+        <br>
+        <br>
+        <label>
+            Ingrese sus apellidos: <input name="apellidos">
+        </label>
+        <br>
+        <br>
+        <label>
+            Ingrese la cantidad de hermanos:
+            <input type="number" name="hermanos">
+        </label>
+        <br><br>
+        <label>
+            Escriba su correo:
+            <input type="email" name="correo">
+        </label>
+        <br><br>
+        <label>
+            Digite su contraseña:
+            <input type="password" name="contra" required>
+        </label>
+        <br><br>
+        <label>
+            Fecha de nacimiento:
+            <input type="date" name="FNacimiento">
+        </label>
+        <br><br>
+        <fieldset>
+            <legend>Pasatiempos:</legend>
+
+            <label> <input type="checkbox" name="cine"> Cine </label>
+            <label> <input type="checkbox" name="deporte"> deporte </label>
+            <label> <input type="checkbox" name="musica"> musica </label>
+            <label> <input type="checkbox" name="dormir"> dormir </label>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Género</legend>
+
+            <label> <input type="radio" name="genero" > Masculino </label>
+            <label> <input type="radio" name="genero"> Femenino </label>
+        </fieldset>
+        <br><br>
+        <label>
+            Pais:
+            <select name="nacionalidad">
+                <optgroup label="America" >
+                    <option value="colom">Comlombia</option>
+                    <option value="peru">Perú</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="panama">Panamá</option>
+                </optgroup>
+
+                <optgroup label="Europa" >
+                    <option value="españa">España</option>
+                    <option value="ita">Italia</option>
+                    <option value="Ale">Alemania</option>
+                    <option value="Port">Portugal</option>
+                </optgroup>
+            </select>
+
+        </label>
+        <br><br>
+        <label>
+            Describete a ti mismo/a:
+            <textarea name="descripcion" cols="80" rows="10"></textarea>
+
+        </label>
+
+        <br><br>
+        <input type="submit" value="Guardar" >
+
+
+
+    </form>
+
+</body>
+</html>
