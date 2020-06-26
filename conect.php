@@ -5,6 +5,7 @@
     $contraseña = "1234";
     $baseDatos= "desarrollo";
     //Ahora un comentario aqui
+    //otro cambio
 
 
     $tablaEstudiantes = "estudiante";
