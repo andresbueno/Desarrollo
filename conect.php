@@ -6,7 +6,7 @@
     $baseDatos= "desarrollo";
     //Ahora un comentario aqui
     //otro cambio
-
+    //subir sin termianl
 
     $tablaEstudiantes = "estudiante";
 
